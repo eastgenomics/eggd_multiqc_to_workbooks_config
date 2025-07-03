@@ -1,0 +1,18 @@
+{
+    "name": "Config for eggd_multiqc_to_workbook",
+    "assay_version": " MYE v2.5.0",
+    "version": "1.0.0",
+    "details": "Includes cell locations to  add data to",
+    "changelog": {
+        "v1.0.0": "Initial working version"
+    },
+    "cell_locations":{
+        "250_coverage":"B15",
+        "freemix":"B16",
+        "M_reads": "B17",
+        "fold_80":"B18",
+        "insert_size": "B19",
+        "somalier": "B20",
+        "somalier_text":"A20"
+    }
+}
