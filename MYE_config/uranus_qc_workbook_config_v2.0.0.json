@@ -1,7 +1,7 @@
 {
     "name": "Config for eggd_multiqc_to_workbook",
     "assay_version": " MYE v3.0.0",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "details": "Includes cell locations to  add data to",
     "changelog": {
         "v1.0.0": "Initial working version",
