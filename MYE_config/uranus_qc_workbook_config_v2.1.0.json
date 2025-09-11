@@ -5,7 +5,8 @@
     "details": "Includes cell locations to  add data to",
     "changelog": {
         "v1.0.0": "Initial working version",
-        "v2.0.0": "Compatible with new capture and generate_workbook_v2.10 format"
+        "v2.0.0": "Compatible with new capture and generate_workbook_v2.10 format",
+        "v2.1.0": "Compatible with generate_workbook_v2.11.1 format"
     },
     "cell_locations": {
         "250_coverage": "B9",
