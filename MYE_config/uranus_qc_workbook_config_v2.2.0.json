@@ -21,7 +21,8 @@
         "gene_depths": {
             "JAK2": {
                 "depth_text": "D9",
-                "min_depth": "E9"
+                "min_depth": "E9",
+                "label": "JAK2 V617F"
             }
         }
     },
