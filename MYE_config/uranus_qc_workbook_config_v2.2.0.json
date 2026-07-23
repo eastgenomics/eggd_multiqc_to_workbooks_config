@@ -19,10 +19,9 @@
         "somalier": "B14",
         "somalier_text": "A14",
         "gene_depths": {
-            "JAK2": {
+            "JAK2-V617F": {
                 "depth_text": "D9",
-                "min_depth": "E9",
-                "label": "JAK2 V617F"
+                "min_depth": "E9"
             }
         }
     },
