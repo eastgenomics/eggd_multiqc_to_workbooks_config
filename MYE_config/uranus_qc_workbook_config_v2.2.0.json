@@ -1,13 +1,14 @@
 {
-    "name": "Config for eggd_multiqc_to_workbook",
+    "name": "Config for eggd_qc_to_workbook",
     "assay_version": "MYE v3.0.0",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "details": "Includes cell locations to  add data to",
     "changelog": {
         "v1.0.0": "Initial working version",
         "v2.0.0": "Compatible with new capture and generate_workbook_v2.10 format",
         "v2.1.0": "Compatible with generate_workbook_v2.11.1 format",
-        "v2.1.1": "Updated name of sexcheck_file"
+        "v2.1.1": "Updated name of sexcheck_file",
+        "v2.2.0": "Added gene depth cell locations"
     },
     "cell_locations": {
         "250_coverage": "B9",
@@ -16,7 +17,13 @@
         "fold_80": "B12",
         "insert_size": "B13",
         "somalier": "B14",
-        "somalier_text": "A14"
+        "somalier_text": "A14",
+        "gene_depths": {
+            "JAK2-V617F": {
+                "depth_text": "D9",
+                "min_depth": "E9"
+            }
+        }
     },
     "multiqc_file_names": {
         "general_stats_file": "multiqc_general_stats.txt",
